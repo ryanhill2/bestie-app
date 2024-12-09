@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [score, setScore] = useState(() => parseInt(localStorage.getItem('score')) || 0);
-  const [showScore, setShowScore] = useState(() => JSON.parse(localStorage.getItem('showScore')) || false);
-  const [currentQuestion, setCurrentQuestion] = useState(() => parseInt(localStorage.getItem('currentQuestion')) || 0);
-  const [quizStarted, setQuizStarted] = useState(() => JSON.parse(localStorage.getItem('quizStarted')) || false);
+  const [score, setScore] = useState(0);
+  const [showScore, setShowScore] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [quizStarted, setQuizStarted] = useState(false);
+
+  useEffect(() => {
+    localStorage.clear();
+  }, []);
 
   const questions = [
     {
@@ -36,13 +40,6 @@ function App() {
       ],
     },
   ];
-
-  // useEffect(() => {
-  //   localStorage.setItem('score', score);
-  //   localStorage.setItem('showScore', showScore);
-  //   localStorage.setItem('currentQuestion', currentQuestion);
-  //   localStorage.setItem('quizStarted', quizStarted);
-  // }, [score, showScore, currentQuestion, quizStarted]);
 
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {

@@ -10,7 +10,7 @@ cp -r build/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "remove local storage"
+git commit -m "remove local storage and allow multiple attempts"
 
 # Push changes to remote repository
 git push
