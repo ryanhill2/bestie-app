@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bestie-app/static/css/main.664803e8.css",
-    "main.js": "/bestie-app/static/js/main.39b74fed.js",
+    "main.css": "/bestie-app/static/css/main.28c8326b.css",
+    "main.js": "/bestie-app/static/js/main.b04f7b00.js",
     "static/js/488.5148d0a8.chunk.js": "/bestie-app/static/js/488.5148d0a8.chunk.js",
     "index.html": "/bestie-app/index.html",
-    "main.664803e8.css.map": "/bestie-app/static/css/main.664803e8.css.map",
-    "main.39b74fed.js.map": "/bestie-app/static/js/main.39b74fed.js.map",
+    "main.28c8326b.css.map": "/bestie-app/static/css/main.28c8326b.css.map",
+    "main.b04f7b00.js.map": "/bestie-app/static/js/main.b04f7b00.js.map",
     "488.5148d0a8.chunk.js.map": "/bestie-app/static/js/488.5148d0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.664803e8.css",
-    "static/js/main.39b74fed.js"
+    "static/css/main.28c8326b.css",
+    "static/js/main.b04f7b00.js"
   ]
 }

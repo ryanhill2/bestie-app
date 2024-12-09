@@ -9,30 +9,30 @@ function App() {
 
   const questions = [
     {
-      questionText: 'When was Ryan born?',
+      questionText: 'What month was Ryan born in?',
       answerOptions: [
-        { answerText: 'Leitrim', isCorrect: false },
-        { answerText: 'Dublin', isCorrect: false },
-        { answerText: 'Sligo', isCorrect: false },
-        { answerText: 'Cavan', isCorrect: true },
+        { answerText: 'January', isCorrect: false },
+        { answerText: 'February', isCorrect: false },
+        { answerText: 'October', isCorrect: true },
+        { answerText: 'December', isCorrect: false },
       ],
     },
     {
-      questionText: 'What did he study in college?',
+      questionText: 'Who\'s Ryan\'s best friend?',
       answerOptions: [
-        { answerText: 'Mathematics', isCorrect: false },
-        { answerText: 'Physics', isCorrect: false },
-        { answerText: 'Computer Science', isCorrect: true },
-        { answerText: 'Software Engineering', isCorrect: false },
+        { answerText: 'Abraham', isCorrect: false },
+        { answerText: 'Kris', isCorrect: true },
+        { answerText: 'Abro', isCorrect: false },
+        { answerText: 'Tom', isCorrect: false },
       ],
     },
     {
-      questionText: 'What\'s his favorite drink?',
+      questionText: 'Who\'s Ryan\'s little crush?',
       answerOptions: [
-        { answerText: 'Coffee', isCorrect: false },
-        { answerText: 'Water', isCorrect: false },
-        { answerText: 'Coke', isCorrect: true },
-        { answerText: 'None of the above', isCorrect: false },
+        { answerText: 'Anna', isCorrect: false },
+        { answerText: 'Sara', isCorrect: false },
+        { answerText: 'Raj', isCorrect: true },
+        { answerText: 'Other', isCorrect: false },
       ],
     },
   ];
@@ -73,6 +73,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="image-container">
+        <img src={`${process.env.PUBLIC_URL}/ryan-and-raj.jpg`} alt="Ryan and Raj" />
+      </div>
       {quizStarted ? (
         showScore ? (
           <div className="score-section">
