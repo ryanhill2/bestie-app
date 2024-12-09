@@ -10,7 +10,7 @@ cp -r build/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "Starting point"
+git commit -m "Add MCQ Quiz"
 
 # Push changes to remote repository
 git push

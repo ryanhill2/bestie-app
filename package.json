@@ -4,7 +4,10 @@
   "private": true,
   "homepage": "https://ryanhill2.github.io/bestie-app",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cra-template": "1.2.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.1",
