@@ -10,7 +10,7 @@ cp -r build/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "wrong folder name"
+git commit -m "Add home page"
 
 # Push changes to remote repository
 git push
