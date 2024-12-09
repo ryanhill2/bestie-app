@@ -10,7 +10,7 @@ cp -r dist/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "starting point for react app"
+git commit -m "try to trigger github pages build"
 
 # Push changes to remote repository
 git push
