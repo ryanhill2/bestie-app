@@ -4,13 +4,13 @@
 npm run build
 
 # Copy build contents to root
-cp -r dist/* .
+cp -r build/* .
 
 # Add all files
 git add .
 
 # Commit changes with a commit message
-git commit -m "try to trigger github pages build"
+git commit -m "wrong folder name"
 
 # Push changes to remote repository
 git push
