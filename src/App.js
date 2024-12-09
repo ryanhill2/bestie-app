@@ -37,12 +37,12 @@ function App() {
     },
   ];
 
-  useEffect(() => {
-    localStorage.setItem('score', score);
-    localStorage.setItem('showScore', showScore);
-    localStorage.setItem('currentQuestion', currentQuestion);
-    localStorage.setItem('quizStarted', quizStarted);
-  }, [score, showScore, currentQuestion, quizStarted]);
+  // useEffect(() => {
+  //   localStorage.setItem('score', score);
+  //   localStorage.setItem('showScore', showScore);
+  //   localStorage.setItem('currentQuestion', currentQuestion);
+  //   localStorage.setItem('quizStarted', quizStarted);
+  // }, [score, showScore, currentQuestion, quizStarted]);
 
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {
