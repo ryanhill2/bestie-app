@@ -10,7 +10,7 @@ cp -r build/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "remove local storage and allow multiple attempts"
+git commit -m "styling to make it look better on mobile"
 
 # Push changes to remote repository
 git push
