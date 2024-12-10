@@ -1,0 +1,27 @@
+/* AboutRaj.css */
+
+.about-raj {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center; /* Center the content */
+}
+
+.message-container {
+  margin-top: 20px;
+}
+
+.message-container p {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold; /* Make the text bold */
+}
+
+.message-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}

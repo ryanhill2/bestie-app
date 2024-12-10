@@ -10,7 +10,7 @@ cp -r build/* .
 git add .
 
 # Commit changes with a commit message
-git commit -m "styling to make it look better on mobile"
+git commit -m "Adding about Raj section to website"
 
 # Push changes to remote repository
 git push

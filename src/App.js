@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Menu from './Menu';
+import AboutRaj from './AboutRaj';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -68,7 +71,7 @@ function App() {
 
   const { message, color } = getMessage();
 
-  return (
+  const Home = () => (
     <div className="App">
       <div className="image-container">
         <img src={`${process.env.PUBLIC_URL}/ryan-and-raj.jpg`} alt="Ryan and Raj" />
@@ -102,6 +105,18 @@ function App() {
         <button className="start-quiz-button" onClick={() => setQuizStarted(true)}>Start Quiz</button>
       )}
     </div>
+  );
+
+  return (
+    <Router>
+      <div>
+        <Menu />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about-raj" element={<AboutRaj />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
