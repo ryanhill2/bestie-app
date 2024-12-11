@@ -9,7 +9,7 @@
   text-align: center; /* Center the content */
 }
 
-.learn-more-button {
+.learn-more-button, .tell-more-button {
   background-color: #007bff;
   color: white;
   border: none;
@@ -19,7 +19,7 @@
   margin-top: 20px;
 }
 
-.learn-more-button:hover {
+.learn-more-button:hover, .tell-more-button:hover {
   background-color: #0056b3;
 }
 
@@ -38,4 +38,9 @@
   height: auto;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
 }
